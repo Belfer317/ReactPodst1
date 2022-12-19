@@ -4,6 +4,7 @@ import Books from "./Views/Books/Books";
 import CDs from "./Views/CDs/CDs";
 import "./styles.css";
 import Home from "./Views/Home/Home";
+import Ebooks from "./Views/Ebooks/Ebooks";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "cds",
     element: <CDs />
+  },
+  {
+    path: "ebooks",
+    element: <Ebooks />
   }
 ]);
 
