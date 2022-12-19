@@ -1,5 +1,3 @@
-
-
 const Ebook = ({id, title, author})=>(
     <> 
         <h2>{id}. {title}</h2>
