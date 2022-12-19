@@ -23,10 +23,11 @@ const books = [
 const Books = () => (
   <>
     <Nav />
-    <ViewTitle title="Oto moje książki i dupa" />
+    <ViewTitle title="Oto moje książki" />
     {books.map((book) => (
       <div key={book.id}>
         <Book id={book.id} title={book.title} author={book.author} />
+        <hr />
       </div>
     ))}
   </>

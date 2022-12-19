@@ -12,6 +12,9 @@ const Nav = () => (
       <li>
         <Link to={`/cds`}>Płyty CD</Link>
       </li>
+      <li>
+        <Link to={`/ebooks`}>Ebooki</Link>
+      </li>
     </ul>
   </nav>
 );
