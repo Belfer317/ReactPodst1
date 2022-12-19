@@ -24,9 +24,11 @@ const Ebooks =()=>(
     <>
        <Nav />
        <ViewTitle title='Ebooki' />
-      {ebooks.map(ebook=>{
-        <Ebook key={ebook.id} id={ebook.id} title={ebook.title} author={ebook.author} />
-      })}
+      {ebooks.map((ebook)=>(
+      <div key={ebook.id}>
+        <Ebook  id={ebook.id} title={ebook.title} author={ebook.author} />
+      </div>
+))}
     </>
 )
 export default Ebooks

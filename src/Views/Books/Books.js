@@ -27,6 +27,7 @@ const Books = () => (
     {books.map((book) => (
       <div key={book.id}>
         <Book id={book.id} title={book.title} author={book.author} />
+        <hr />
       </div>
     ))}
   </>
