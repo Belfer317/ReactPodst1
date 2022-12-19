@@ -1,0 +1,21 @@
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+li {
+  flex-basis: 6em;
+  margin-right: 0.3em;
+}
+a {
+  display: block;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  text-decoration: none;
+  background-color: #eee;
+  color: #555;
+}
+a:hover {
+  color: #eee;
+  background-color: #555;
+}
